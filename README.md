@@ -1,20 +1,27 @@
 # Spellcheck
 
-**TODO: Add description**
+Command line spell checker. Frontend for https://market.mashape.com/montanaflynn/spellcheck
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+```
+mix escript.build
+```
 
-  1. Add spellcheck to your list of dependencies in `mix.exs`:
+## Usage
 
-        def deps do
-          [{:spellcheck, "~> 0.0.1"}]
-        end
+```
+$ ./spellcheck ./spellcheck spelling mistikes make you look dumb
 
-  2. Ensure spellcheck is started before your application:
+mistikes:
+	mistakes		http://www.dictionary.com/browse/mistakes
+	mistimes		http://www.dictionary.com/browse/mistimes
+	mistiness		http://www.dictionary.com/browse/mistiness
+	mistime		http://www.dictionary.com/browse/mistime
+	mistake		http://www.dictionary.com/browse/mistake
+	Mistresses		http://www.dictionary.com/browse/Mistresses
+	mistakable		http://www.dictionary.com/browse/mistakable
+	mistook		http://www.dictionary.com/browse/mistook
 
-        def application do
-          [applications: [:spellcheck]]
-        end
-
+Suggestion: spelling mistakes make you look dumb
+```
