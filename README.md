@@ -11,7 +11,7 @@ mix escript.build
 ## Usage
 
 ```
-$ ./spellcheck ./spellcheck spelling mistikes make you look dumb
+$ ./spellcheck spelling mistikes make you look dumb
 
 mistikes:
 	mistakes		http://www.dictionary.com/browse/mistakes
